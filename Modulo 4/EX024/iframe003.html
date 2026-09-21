@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officiis molestias provident neque, inventore ullam alias excepturi autem nobis. Deleniti quae quasi praesentium expedita cumque voluptas ut voluptatibus quia tempore?</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, illo, voluptatibus ipsa autem quae ducimus accusamus corporis hic voluptate deserunt praesentium nemo eaque cumque, sint quasi eveniet cupiditate nostrum officiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur similique explicabo praesentium, temporibus sint repellat eos officiis, aperiam voluptates inventore iusto quae nisi molestiae vitae cum velit magni labore rem.</p>
+    
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aut qui? Adipisci, aliquam, pariatur ipsam nulla error quaerat quod delectus temporibus hic doloremque dolores sint tempore saepe rerum, cumque exercitationem!</p>">
+        <p>infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate, et ipsum rem sequi sint ab voluptatem consequuntur! Unde odit assumenda eos neque nemo fugit harum sequi non, cupiditate at! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel minus soluta voluptate ad illo enim aut ullam. Reprehenderit odio eligendi, libero consequatur aut tempora officiis earum, hic dolorum, sequi totam.</p>
+</body>
+</html>
