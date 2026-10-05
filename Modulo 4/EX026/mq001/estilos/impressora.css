@@ -13,12 +13,21 @@ html {
     line-height: 1.5em;
 }
 
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 menu {
     display: none;
 }
 
 article {
     width: 100%;
+}
+
+h2 {
+    padding-bottom: 20px;
 }
 
 article::after {
